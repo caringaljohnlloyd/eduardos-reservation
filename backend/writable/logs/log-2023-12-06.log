@@ -1,0 +1,80 @@
+CRITICAL - 2023-12-06 12:00:56 --> Undefined array key "prod_quantity"
+in APPPATH\Controllers\MainController.php on line 53.
+ 1 APPPATH\Controllers\MainController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_quantity"', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updateQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-12-06 12:03:38 --> Undefined array key "prod_quantity"
+in APPPATH\Controllers\MainController.php on line 53.
+ 1 APPPATH\Controllers\MainController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_quantity"', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updateQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-12-06 12:05:17 --> Undefined array key "prod_quantity"
+in APPPATH\Controllers\MainController.php on line 53.
+ 1 APPPATH\Controllers\MainController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_quantity"', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updateQuantity()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-12-06 12:16:32 --> Too few arguments to function App\Controllers\MainController::updateQuantity(), 0 passed in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\MainController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updateQuantity()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-12-06 15:56:07 --> Call to a member function save() on null
+in APPPATH\Controllers\MainController.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-12-06 15:56:08 --> Call to a member function save() on null
+in APPPATH\Controllers\MainController.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-12-06 15:56:09 --> Call to a member function save() on null
+in APPPATH\Controllers\MainController.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-12-06 15:56:09 --> Call to a member function save() on null
+in APPPATH\Controllers\MainController.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-12-06 15:56:10 --> Call to a member function save() on null
+in APPPATH\Controllers\MainController.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-12-06 15:56:22 --> Call to a member function save() on null
+in APPPATH\Controllers\MainController.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-12-06 15:57:22 --> Call to a member function save() on null
+in APPPATH\Controllers\MainController.php on line 457.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')

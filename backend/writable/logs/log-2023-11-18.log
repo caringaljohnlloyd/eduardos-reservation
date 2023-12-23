@@ -1,0 +1,1188 @@
+CRITICAL - 2023-11-18 06:19:24 --> Attempt to read property "images" on array
+in APPPATH\Controllers\MainController.php on line 109.
+ 1 APPPATH\Controllers\MainController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "images" on array', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 06:19:24 --> Attempt to read property "images" on array
+in APPPATH\Controllers\MainController.php on line 109.
+ 1 APPPATH\Controllers\MainController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "images" on array', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 06:19:30 --> Attempt to read property "images" on array
+in APPPATH\Controllers\MainController.php on line 109.
+ 1 APPPATH\Controllers\MainController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "images" on array', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 06:19:53 --> Attempt to read property "images" on array
+in APPPATH\Controllers\MainController.php on line 109.
+ 1 APPPATH\Controllers\MainController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "images" on array', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 06:20:00 --> Attempt to read property "images" on array
+in APPPATH\Controllers\MainController.php on line 109.
+ 1 APPPATH\Controllers\MainController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "images" on array', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 06:34:07 --> Unclosed '{' on line 14
+in APPPATH\Controllers\MainController.php on line 122.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MainController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MainController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\MainController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 06:34:13 --> Unclosed '{' on line 14
+in APPPATH\Controllers\MainController.php on line 122.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MainController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MainController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\MainController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 07:35:28 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 113.
+ 1 APPPATH\Controllers\MainController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 07:35:29 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 113.
+ 1 APPPATH\Controllers\MainController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 07:35:51 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 113.
+ 1 APPPATH\Controllers\MainController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 07:37:39 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 113.
+ 1 APPPATH\Controllers\MainController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:15:48 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 113.
+ 1 APPPATH\Controllers\MainController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:19:08 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 113.
+ 1 APPPATH\Controllers\MainController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:19:28 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 113.
+ 1 APPPATH\Controllers\MainController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:19:40 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 113.
+ 1 APPPATH\Controllers\MainController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:21:53 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:22:29 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:23:38 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:23:52 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:25:56 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:26:03 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:26:15 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:27:01 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:28:30 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:28:33 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:29:03 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:29:12 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:29:13 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:29:15 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:29:52 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:29:54 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:29:58 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:30:23 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:30:35 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 08:30:37 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\MainController.php on line 112.
+ 1 APPPATH\Controllers\MainController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\PC\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->fetchData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-18 08:53:54 --> mysqli_sql_exception: Table 'crud.users' doesn't exist in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `users` ...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(174): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->resetPassword()
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-11-18 08:53:54 --> Table 'crud.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `password` = :password:
+WHERE `email` = :email:', [...], false)
+ 2 APPPATH\Controllers\MainController.php(174): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->resetPassword()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:17:32 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 185.
+ 1 APPPATH\Controllers\MainController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:21:00 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 185.
+ 1 APPPATH\Controllers\MainController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:23:46 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 185.
+ 1 APPPATH\Controllers\MainController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:24:37 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 185.
+ 1 APPPATH\Controllers\MainController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:31:09 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 185.
+ 1 APPPATH\Controllers\MainController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:31:29 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 185.
+ 1 APPPATH\Controllers\MainController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:31:31 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 185.
+ 1 APPPATH\Controllers\MainController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:31:31 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 185.
+ 1 APPPATH\Controllers\MainController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:31:31 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 185.
+ 1 APPPATH\Controllers\MainController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:31:31 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 185.
+ 1 APPPATH\Controllers\MainController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:31:32 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 185.
+ 1 APPPATH\Controllers\MainController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:31:32 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 185.
+ 1 APPPATH\Controllers\MainController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:31:32 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 185.
+ 1 APPPATH\Controllers\MainController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:34:59 --> Undefined array key "email"
+in APPPATH\Controllers\MainController.php on line 186.
+ 1 APPPATH\Controllers\MainController.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 186)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:35:02 --> Undefined array key "email"
+in APPPATH\Controllers\MainController.php on line 186.
+ 1 APPPATH\Controllers\MainController.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 186)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:35:04 --> Undefined array key "email"
+in APPPATH\Controllers\MainController.php on line 186.
+ 1 APPPATH\Controllers\MainController.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 186)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->updatePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:37:34 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\MainController.php on line 158.
+ 1 APPPATH\Controllers\MainController.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 158)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->resetPassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:48:37 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\MainController.php(175): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->resetPassword()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:49:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\MainController.php(175): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->resetPassword()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-18 09:54:27 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\MainController.php(175): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->resetPassword()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:23:15 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:23:15 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:23:17 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:23:17 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:23:19 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:23:19 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:23:20 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:23:20 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:23:21 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:23:21 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:23:21 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:23:21 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:23:49 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:23:49 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:23:50 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:23:50 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:23:50 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:23:50 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:23:51 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:23:51 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:23:51 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:23:51 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:23:51 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:23:51 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:23:52 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:23:52 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:24:40 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:24:40 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:26:00 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:26:00 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:26:00 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:26:00 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:26:00 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:26:00 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:26:00 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:26:00 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:26:01 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:26:01 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:26:01 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:26:01 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:26:01 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:26:01 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:26:01 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:26:01 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:26:03 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:26:03 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 14:26:03 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(120): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->register()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 14:26:03 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `email`, `password`, `token`, `status`, `role`) VALUES (:name:, :email:, :password:, :token:, :status:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(120): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-18 15:46:05 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`crud`.`feedbacks`, CONSTRAINT `feedbacks_ibfk_1` FOREIGN KEY (`id`) REFERENCES `user` (`id`)) in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fe...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fe...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fe...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fe...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(72): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->save()
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-11-18 15:46:05 --> Cannot add or update a child row: a foreign key constraint fails (`crud`.`feedbacks`, CONSTRAINT `feedbacks_ibfk_1` FOREIGN KEY (`id`) REFERENCES `user` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `feedbacks` (`feedback`, `profession`) VALUES (:feedback:, :profession:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MainController.php(72): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')

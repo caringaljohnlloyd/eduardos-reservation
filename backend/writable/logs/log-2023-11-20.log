@@ -1,0 +1,51 @@
+CRITICAL - 2023-11-20 12:06:16 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\MainController.php on line 57.
+ 1 APPPATH\Controllers\MainController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->del()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-20 12:06:26 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\MainController.php on line 57.
+ 1 APPPATH\Controllers\MainController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->del()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-11-20 12:08:53 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\MainController.php on line 57.
+ 1 APPPATH\Controllers\MainController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->del()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-11-20 12:09:38 --> mysqli_sql_exception: Table 'crud.playlist' doesn't exist in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `pl...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pl...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pl...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pl...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(1080): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(59): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->del()
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-11-20 12:09:38 --> Table 'crud.playlist' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `playlist`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\MainController.php(59): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->del()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')

@@ -1,0 +1,263 @@
+CRITICAL - 2023-12-17 05:58:49 --> Attempt to read property "booking_id" on null
+in APPPATH\Controllers\MainController.php on line 301.
+ 1 APPPATH\Controllers\MainController.php(301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_id" on null', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 301)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->declineBooking('104')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-12-17 06:00:03 --> Attempt to read property "booking_id" on null
+in APPPATH\Controllers\MainController.php on line 301.
+ 1 APPPATH\Controllers\MainController.php(301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_id" on null', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 301)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->declineBooking('107')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-12-17 06:00:17 --> Attempt to read property "booking_id" on null
+in APPPATH\Controllers\MainController.php on line 301.
+ 1 APPPATH\Controllers\MainController.php(301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_id" on null', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 301)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->declineBooking('107')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+CRITICAL - 2023-12-17 06:02:33 --> Attempt to read property "booking_id" on null
+in APPPATH\Controllers\MainController.php on line 301.
+ 1 APPPATH\Controllers\MainController.php(301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_id" on null', 'C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\app\\Controllers\\MainController.php', 301)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->declineBooking('107')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-12-17 07:11:01 --> mysqli_sql_exception: Unknown column 'room.id' in 'on clause' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `orders`...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(1074): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-12-17 07:11:01 --> Unknown column 'room.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `order_list`.*, `shop`.*, `user`.`name` as `user_name`, `room`.*
+FROM `orders`
+JOIN `order_list` ON `order_list`.`order_id` = `orders`.`order_id`
+JOIN `shop` ON `shop`.`shop_id` = `order_list`.`shop_id`
+JOIN `user` ON `user`.`id` = `orders`.`id`
+JOIN `room` ON `room`.`id` = `user`.`id`
+WHERE `orders`.`order_status` != :orders.order_status:
+AND `orders`.`order_status` != :orders.order_status.1:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(1074): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-12-17 07:11:31 --> mysqli_sql_exception: Unknown column 'room.id' in 'on clause' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `orders`...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(1074): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-12-17 07:11:31 --> Unknown column 'room.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `order_list`.*, `shop`.*, `user`.`name` as `user_name`, `room`.*
+FROM `orders`
+JOIN `order_list` ON `order_list`.`order_id` = `orders`.`order_id`
+JOIN `shop` ON `shop`.`shop_id` = `order_list`.`shop_id`
+JOIN `user` ON `user`.`id` = `orders`.`id`
+JOIN `room` ON `room`.`id` = `user`.`id`
+WHERE `orders`.`order_status` != :orders.order_status:
+AND `orders`.`order_status` != :orders.order_status.1:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(1074): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-12-17 07:12:56 --> mysqli_sql_exception: Unknown column 'room.id' in 'on clause' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `orders`...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(1073): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-12-17 07:12:56 --> Unknown column 'room.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `order_list`.*, `shop`.*, `user`.`name` as `user_name`, `room`.*
+FROM `orders`
+JOIN `order_list` ON `order_list`.`order_id` = `orders`.`order_id`
+JOIN `shop` ON `shop`.`shop_id` = `order_list`.`shop_id`
+JOIN `user` ON `user`.`id` = `orders`.`id`
+JOIN `room` ON `room`.`id` = `user`.`id`
+WHERE `orders`.`order_status` != :orders.order_status:
+AND `orders`.`order_status` != :orders.order_status.1:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(1073): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-12-17 07:13:18 --> mysqli_sql_exception: Unknown column 'room.id' in 'on clause' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `orders`...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(1074): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-12-17 07:13:18 --> Unknown column 'room.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `order_list`.*, `shop`.*, `user`.`name` as `user_name`, `room`.*
+FROM `orders`
+JOIN `order_list` ON `order_list`.`order_id` = `orders`.`order_id`
+JOIN `shop` ON `shop`.`shop_id` = `order_list`.`shop_id`
+JOIN `user` ON `user`.`id` = `orders`.`id`
+JOIN `room` ON `room`.`id` = `user`.`id`
+WHERE `orders`.`order_status` != :orders.order_status:
+AND `orders`.`order_status` != :orders.order_status.1:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(1074): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-12-17 07:14:15 --> mysqli_sql_exception: Unknown column 'room.id' in 'on clause' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `orders`...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(1074): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-12-17 07:14:15 --> Unknown column 'room.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `order_list`.*, `shop`.*, `user`.`name` as `user_name`, `room`.*
+FROM `orders`
+JOIN `order_list` ON `order_list`.`order_id` = `orders`.`order_id`
+JOIN `shop` ON `shop`.`shop_id` = `order_list`.`shop_id`
+JOIN `user` ON `user`.`id` = `orders`.`id`
+JOIN `room` ON `room`.`id` = `user`.`id`
+WHERE `orders`.`order_status` != :orders.order_status:
+AND `orders`.`order_status` != :orders.order_status.1:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(1074): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-12-17 07:14:24 --> mysqli_sql_exception: Unknown column 'room.id' in 'on clause' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `orders`...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(1074): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-12-17 07:14:24 --> Unknown column 'room.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `order_list`.*, `shop`.*, `user`.`name` as `user_name`, `room`.*
+FROM `orders`
+JOIN `order_list` ON `order_list`.`order_id` = `orders`.`order_id`
+JOIN `shop` ON `shop`.`shop_id` = `order_list`.`shop_id`
+JOIN `user` ON `user`.`id` = `orders`.`id`
+JOIN `room` ON `room`.`id` = `user`.`id`
+WHERE `orders`.`order_status` != :orders.order_status:
+AND `orders`.`order_status` != :orders.order_status.1:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(1074): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
+ERROR - 2023-12-17 07:17:03 --> mysqli_sql_exception: Unknown column 'user.id' in 'on clause' in C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `orders`...', 0)
+#1 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`...')
+#2 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`...')
+#3 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`...', Array, false)
+#4 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\app\Controllers\MainController.php(1076): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+#8 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\BALMES-CARINGAL-MANALO-FINALPROJECT\backend\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-12-17 07:17:03 --> Unknown column 'user.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `order_list`.*, `shop`.*, `user`.`name` as `user_name`, `booking`.*
+FROM `orders`
+JOIN `order_list` ON `order_list`.`order_id` = `orders`.`order_id`
+JOIN `shop` ON `shop`.`shop_id` = `order_list`.`shop_id`
+JOIN `booking` ON `booking`.`id` = `user`.`id`
+JOIN `user` ON `user`.`id` = `orders`.`id`
+WHERE `orders`.`order_status` != :orders.order_status:
+AND `orders`.`order_status` != :orders.order_status.1:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(1076): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->getUserOrders()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\BALMES-CARINGAL-MANALO-FINALPROJECT\\backend\\public\\index.php')
