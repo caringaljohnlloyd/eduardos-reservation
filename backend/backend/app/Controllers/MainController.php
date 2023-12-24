@@ -24,16 +24,13 @@ use App\Models\StaffModel;
 
 class MainController extends ResourceController
 {
+
+    use ResponseTrait;
     protected $room;
     protected $orders;
     protected $orderitems;
     protected $invoice;
 protected $cartModel;
-
-public function __construct()
-{
-    session_start();
-}
     public function index()
     {
         //
