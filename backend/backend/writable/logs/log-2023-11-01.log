@@ -1,0 +1,78 @@
+CRITICAL - 2023-11-01 06:32:22 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:32:24 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:32:30 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:32:33 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:33:10 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:33:12 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:33:33 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:33:50 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:34:06 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:34:44 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:34:46 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:35:16 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:35:37 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:37:47 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 06:38:05 --> Declaration of App\Controllers\MainController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 07:59:41 --> Declaration of App\Controllers\MainController::update($id) must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 07:59:45 --> Declaration of App\Controllers\MainController::update($id) must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 07:59:53 --> Declaration of App\Controllers\MainController::update($id) must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 07:59:54 --> Declaration of App\Controllers\MainController::update($id) must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 07:59:54 --> Declaration of App\Controllers\MainController::update($id) must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 07:59:55 --> Declaration of App\Controllers\MainController::update($id) must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 07:59:55 --> Declaration of App\Controllers\MainController::update($id) must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 07:59:55 --> Declaration of App\Controllers\MainController::update($id) must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 08:03:04 --> Declaration of App\Controllers\MainController::update($id) must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 08:03:06 --> Declaration of App\Controllers\MainController::update($id) must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-01 08:03:33 --> Declaration of App\Controllers\MainController::update($id) must be compatible with CodeIgniter\RESTful\ResourceController::update($id = null)
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
