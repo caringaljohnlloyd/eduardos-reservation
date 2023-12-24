@@ -2,7 +2,7 @@
   <div class="container mt-5">
     <div class="row justify-content-center">
       <div class="col-12 col-sm-8 col-md-6 col-lg-4 mt-3  p-4 form-wrapper bg-dark shadow">
-        <h2 class="text-primary text-center mb-4">Welcome Back!</h2>
+        <h2 class="text-primary text-center mb-4">WELCOME BACK!</h2>
 
         <form @submit.prevent="login">
 
