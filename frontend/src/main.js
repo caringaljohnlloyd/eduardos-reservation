@@ -11,7 +11,7 @@ import {faFacebook, faGoogle,faTwitter} from '@fortawesome/free-brands-svg-icons
 
 
 library.add(faFacebook, faGoogle, faTwitter);
-axios.defaults.baseURL = "https://eduarosresort.online/backend/"; // Updated to match the backend URL
+axios.defaults.baseURL = "https://eduarosresort.online/backend/"; 
 
 const app =createApp(App);
 app.use(router);
