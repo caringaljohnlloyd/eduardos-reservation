@@ -473,31 +473,26 @@ check(cartId) {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  .floating-container {
-    position: fixed;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-  }
+    .cart-container {
+      padding: 10px; 
+    }
 
+    .count-input {
+      flex-direction: column; 
+      align-items: flex-start;
+    }
 
-  .column {
-    flex: 1;
-    margin-right: 10px;
-    /* ... existing styles ... */
-  }
+    .quantity {
+      margin: 8px 0; 
+    }
 
-  .invoice-section {
-    position: sticky;
-    top: 20px;
-  }
+    .checkout-products-section table th,
+    .checkout-products-section table td {
+      text-align: center; 
+    }
 
-  .product-item {
-    text-align: center;
+    .invoice-section {
+      position: static; 
+    }
   }
-
-  .product-info {
-    margin-top: 10px;
-  }
-}
 </style>
