@@ -802,7 +802,7 @@ public function confirmOrder($orderId)
 }
 public function handleRoomImageUpload($image, $imageName)
 {
-    $uploadPath = 'C:/laragon/www/BALMES-CARINGAL-MANALO-FINALPROJECT/frontend/src/assets/img';
+    $uploadPath = 'uploads';
 
     $image->move($uploadPath, $imageName);
                 return  $imageName;
@@ -906,7 +906,7 @@ public function saveStaff()
 
 public function handleStaffImageUpload($image, $imageName)
 {
-    $uploadPath = 'C:/laragon/www/BALMES-CARINGAL-MANALO-FINALPROJECT/frontend/src/assets/img';
+    $uploadPath = 'uploads';
 
     $image->move($uploadPath, $imageName);
                 return  $imageName;
