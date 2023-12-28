@@ -766,8 +766,7 @@ public function confirmOrder($orderId)
         
         public function handleImageUpload($image, $imageName)
         {
-            $uploadPath = 'public_html/frontend/src/assets/img';
-
+            $uploadPath = 'uploads';
             $image->move($uploadPath, $imageName);
                         return  $imageName;
         }
