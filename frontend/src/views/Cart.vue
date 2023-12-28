@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="cart-container">
     <Top />
     <navbar />
     <div class="container-fluid padding-bottom-3x mb-1">
@@ -434,6 +434,44 @@ check(cartId) {
 <style scoped>
 @import '@/assets/css/bootstrap.min.css';
 @import '@/assets/css/style.css';
+
+.cart-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.product-item {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-info {
+  margin-top: 10px;
+}
+
+.count-input {
+  display: flex;
+  align-items: center;
+}
+
+.count-input button {
+  margin: 0 5px;
+}
+
+.quantity {
+  margin: 0 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Responsive Styles */
 @media (max-width: 768px) {
   .floating-container {
     position: fixed;
@@ -458,6 +496,7 @@ check(cartId) {
     position: sticky;
     top: 20px;
   }
+
   .product-item {
     text-align: center;
   }
@@ -465,45 +504,5 @@ check(cartId) {
   .product-info {
     margin-top: 10px;
   }
-}
-
-.container {
-  margin-top: 20px;
-  padding: 20px;
-  background-color: #f8f9fa;
-  border: 1px solid #dee2e6;
-  border-radius: 5px;
-}
-
-.shopping-cart-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.column {
-  flex: 1;
-  margin-right: 10px;
-}
-
-.btn-success {
-  background-color: #28a745;
-  color: #fff;
-}
-
-.count-input {
-  display: flex;
-  align-items: center;
-}
-
-.count-input button {
-  margin: 0 5px;
-}
-
-.quantity {
-  margin: 0 8px;
-  font-weight: bold;
-  font-size: 16px;
 }
 </style>
