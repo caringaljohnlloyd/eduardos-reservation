@@ -137,7 +137,6 @@
       <Notification v-if="checkoutSuccess" :show="checkoutSuccess" type="success" message="Checkout successful!" />
       <Notification v-if="checkoutError" :show="checkoutError" type="error" message="Please select items before proceeding with the checkout." />
 
-      <End />
       <spinner />
     </div>
   </div>
@@ -148,7 +147,6 @@
 import axios from 'axios';
 import Top from '@/components/Top.vue';
 import navbar from '@/components/navbar.vue';
-import End from '@/components/End.vue';
 import spinner from '@/components/spinner.vue';
 import Notification from "@/components/Notification.vue";
 
@@ -157,7 +155,7 @@ export default {
   components: {
     spinner, Top,
     navbar,
-    End,    Notification,    
+       Notification,    
 
 
   },
