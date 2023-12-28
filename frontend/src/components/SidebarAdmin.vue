@@ -3,7 +3,7 @@
     <div id="sidebar" class="sidebar sidebar-with-footer">
       <!-- Application Brand -->
       <div class="app-brand">
-        <a href="/index.html">
+        <a href="/admin">
           <img :src="require('../assets/images/logo1.png.png')" alt="Mono">
           <span class="brand-name"></span>
         </a>
