@@ -766,7 +766,7 @@ public function confirmOrder($orderId)
         
         public function handleImageUpload($image, $imageName)
         {
-            $uploadPath = 'C:/laragon/www/BALMES-CARINGAL-MANALO-FINALPROJECT/frontend/src/assets/img';
+            $uploadPath = '../../../img';
 
             $image->move($uploadPath, $imageName);
                         return  $imageName;
