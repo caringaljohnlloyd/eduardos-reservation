@@ -56,7 +56,7 @@
 
       <div class="row">
         <div class="col-lg-8">
-          <div class="invoice-section sticky-column">
+          <div class="invoice-section">
             <h4>Products to Pay:</h4>
             <table class="table">
               <thead>
@@ -480,11 +480,6 @@ check(cartId) {
     transform: translateY(-50%);
   }
 
-  .shopping-cart-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
 
   .column {
     flex: 1;
