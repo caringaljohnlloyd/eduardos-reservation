@@ -20,37 +20,31 @@
             <tr v-for="cart in cart" :key="cart.shop_id">
               <td class="align-middle">
                 <div class="product-item">
-                  <div class="custom-control custom-checkbox" style="float: left; margin-right: 10px; margin-top: 10px;">
-                    <input type="checkbox" :id="'checkbox_' + cart.cart_id" v-model="checkedItems" :value="cart.cart_id"
-                      @click="check(cart.cart_id)">
+                  <div class="custom-control custom-checkbox mb-2">
+                    <input type="checkbox" :id="'checkbox_' + cart.cart_id" v-model="checkedItems" :value="cart.cart_id" @click="check(cart.cart_id)">
                     <label class="custom-control-label" :for="'checkbox' + cart.shop_id"></label>
                   </div>
-                  <a class=""><img class="img-fluid menu"
-                      style="width: 100%; max-width: 250px; height: 200px; margin-top: 5px;"
-                      :src="require('@/assets/img/' + getImg(cart).prod_img)" alt="Product"></a>
+                  <a class=""><img class="img-fluid menu" style="width: 100%; max-width: 250px; height: 200px; margin-top: 5px;" :src="require('@/assets/img/' + getImg(cart).prod_img)" alt="Product">
+</a>
                   <div class="product-info">
                     <h4 class="product-title">{{ getInfo(cart).prod_name }}</h4>
                   </div>
                 </div>
               </td>
 
-
               <td class="align-middle text-center">
                 <div class="count-input">
-                  <button @click="updateQuantity(cart, 'decrement')" class="btn btn-primary btn-sm rounded-circle"
-                    :disabled="cart.quantity <= 1">
+                  <button @click="updateQuantity(cart, 'decrement')" class="btn btn-primary btn-sm rounded-circle" :disabled="cart.quantity <= 1">
                     <i class="fas fa-minus"></i>
                   </button>
                   <span class="quantity">{{ cart.quantity }}</span>
-                  <button @click="updateQuantity(cart, 'increment')" class="btn btn-primary btn-sm rounded-circle"
-                    :disabled="cart.quantity >= getMaxQuantity(cart)">
+                  <button @click="updateQuantity(cart, 'increment')" class="btn btn-primary btn-sm rounded-circle" :disabled="cart.quantity >= getMaxQuantity(cart)">
                     <i class="fas fa-plus"></i>
                   </button>
                 </div>
               </td>
 
-
-              <td class=" align-middle text-center text-lg text-medium">{{ getPrice(cart).prod_price }}</td>
+              <td class="align-middle text-center text-lg text-medium">{{ getPrice(cart).prod_price }}</td>
               <td class="align-middle text-center text-lg text-medium">{{ getTotal(cart) }}</td>
               <td class="align-middle text-center">
                 <button @click="deleteCart(cart.cart_id)" class="btn btn-danger"><i class="fa fa-trash"></i></button>
@@ -59,116 +53,96 @@
           </tbody>
         </table>
       </div>
-      <div class="floating-container">
-        <div class="container">
-          <div class="shopping-cart-footer">
-           
-<!-- invoice section-->
-          
-<div class="column text-lg invoice-section sticky-column">
-              <h4>Products to Pay:</h4>
-              <table class="table">
-    <thead>
-      <tr>
-        <th>Product Name</th>
-        <th>Price</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr v-for="cartId in checkedItems" :key="cartId">
-        
-        <td>{{ getInfo(getCartItem(cartId)).prod_name }}</td>
-        <td>Php.{{ getPrice(getCartItem(cartId)).prod_price }}</td>
-      </tr>
-    </tbody>
-  </table>
-  <div>
-          <h4>Total:</h4> <span class="text-medium">Php.{{ calculateSubtotal() }}</span>
-        </div>
-      </div>
-      <div class="column checkout-button-section">
-              <div class="shopping-cart-footer">
-                <div class="column">
-                  <div class="payment-form">
-      <h4>Select Payment Method:</h4>
-      <div>
-        <label>
-          <input type="radio" v-model="paymentMethod" value="credit_card">
-          Credit Card
-        </label>
-      </div>
-      <div>
-        <label>
-          <input type="radio" v-model="paymentMethod" value="paypal">
-          PayPal
-        </label>
-      </div>
-      <div>
-        <label>
-          <input type="radio" v-model="paymentMethod" value="cash">
-          Cash
-        </label>
-      </div>
-      
-                  <a class="btn btn-dark" @click="checkout">Proceed to Checkout</a>
-                  
-                </div>
-  
 
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="invoice-section sticky-column">
+            <h4>Products to Pay:</h4>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Product Name</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="cartId in checkedItems" :key="cartId">
+                  <td>{{ getInfo(getCartItem(cartId)).prod_name }}</td>
+                  <td>Php.{{ getPrice(getCartItem(cartId)).prod_price }}</td>
+                </tr>
+              </tbody>
+            </table>
+            <div>
+              <h4>Total:</h4>
+              <span class="text-medium">Php.{{ calculateSubtotal() }}</span>
+            </div>
+          </div>
+          <div class="checkout-button-section">
+            <div class="shopping-cart-footer">
+              <div class="column">
+                <div class="payment-form">
+                  <h4>Select Payment Method:</h4>
+                  <div>
+                    <label>
+                      <input type="radio" v-model="paymentMethod" value="credit_card">
+                      Credit Card
+                    </label>
+                  </div>
+                  <div>
+                    <label>
+                      <input type="radio" v-model="paymentMethod" value="paypal">
+                      PayPal
+                    </label>
+                  </div>
+                  <div>
+                    <label>
+                      <input type="radio" v-model="paymentMethod" value="cash">
+                      Cash
+                    </label>
+                  </div>
+                  <a class="btn btn-dark" @click="checkout">Proceed to Checkout</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        <div class="col-lg-4">
+          <div class="checkout-products-section">
+            <h4>Checkout Products:</h4>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="text-center">Product Name</th>
+                  <th class="text-center">Price</th>
+                  <th class="text-center">Quantity</th>
+                  <th class="text-center">Total Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="product in checkedOutProducts" :key="product.cart_id">
+                  <td>{{ getInfo(product).prod_name }}</td>
+                  <td>Php.{{ getPrice(product).prod_price }}</td>
+                  <td>{{ product.quantity }}</td>
+                  <td>Php.{{ getTotal(product) }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
 
+      <Notification v-if="insufficientStockError" :show="insufficientStockError" type="error" message="Insufficient stock for one or more items" />
+      <Notification v-if="notification.show" :show="notification.show" :type="notification.type" :message="notification.message" />
+      <Notification v-if="checkoutSuccess" :show="checkoutSuccess" type="success" message="Checkout successful!" />
+      <Notification v-if="checkoutError" :show="checkoutError" type="error" message="Please select items before proceeding with the checkout." />
 
-
-
-
-
-      <div class="column checkout-products-section">
-  <h4>Checkout Products:</h4>
-  <table class="table">
-    <thead>
-            <tr>
-              <th class="text-center">Product Name</th>
-              <th class="text-center">Price</th>
-              <th class="text-center">Quantity</th>
-              <th class="text-center">Total Price</th>
-            </tr>
-          </thead>
-    <tbody>
-      <tr v-for="product in checkedOutProducts" :key="product.cart_id">
-        
-        <td>{{ getInfo(product).prod_name }}</td>
-        <td>Php.{{ getPrice(product).prod_price }}</td>
-        <td>{{ product.quantity }}</td>
-        <td>Php.{{ getTotal(product) }}</td>
-      </tr>
-    </tbody>
-  </table>
-
-</div>
-
-
-<br>
-<br>
-  <br>
-  <br>
-  <br>
-  <Notification v-if="insufficientStockError" :show="insufficientStockError" type="error" message="Insufficient stock for one or more items" />
-  <Notification v-if="notification.show" :show="notification.show" :type="notification.type" :message="notification.message" />
-
-  <Notification v-if="checkoutSuccess" :show="checkoutSuccess" type="success" message="Checkout successful!" />
-  <Notification v-if="checkoutError" :show="checkoutError" type="error" message="Please select items before proceeding with the checkout." />
-
-  <End />
-  <spinner />
-</div>
-</div>
-</div>
-
+      <End />
+      <spinner />
+    </div>
+  </div>
 </template>
+
 
 <script>
 import axios from 'axios';
