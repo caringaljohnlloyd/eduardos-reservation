@@ -24,7 +24,7 @@
                     <input type="checkbox" :id="'checkbox_' + cart.cart_id" v-model="checkedItems" :value="cart.cart_id" @click="check(cart.cart_id)">
                     <label class="custom-control-label" :for="'checkbox' + cart.shop_id"></label>
                   </div>
-                  <a class=""><img class="img-fluid menu" style="width: 100%; max-width: 250px; height: 200px; margin-top: 5px;" :src="`https://eduarosresort.online/backend/uploads/${shop.prod_img}`" alt="Product">
+                  <a class=""><img class="img-fluid menu" style="width: 100%; max-width: 250px; height: 200px; margin-top: 5px;" :src="`https://eduarosresort.online/backend/uploads/${getImg(cart).prod_img}`" alt="Product">
 </a>
                   <div class="product-info">
                     <h4 class="product-title">{{ getInfo(cart).prod_name }}</h4>
