@@ -1,6 +1,6 @@
 {
-  "name": "E-Reservation",
-  "short_name": "E-Reservation",
+  "name": "E-RESERVATION",
+  "short_name": "E-RESERVATION",
   "theme_color": "#4DBA87",
   "icons": [
     {
@@ -29,5 +29,4 @@
   "start_url": ".",
   "display": "standalone",
   "background_color": "#000000"
-
 }

@@ -48,7 +48,7 @@
           <div class="room-item shadow rounded overflow-hidden">
             <div class="position-relative">
               <img class="img-fluid menu" style="width: 200%; max-width: 500px; height: 330px;"
-							:src="require('@/assets/img/' + room.image)" alt="" />            
+							 :src="`https://eduarosresort.online/backend/uploads/${room.image}`" alt="" />            
                 <small
                 class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4"
                 >Php.{{ room.price }}</small
